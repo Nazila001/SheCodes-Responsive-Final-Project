@@ -220,7 +220,7 @@ footer .social-links a:hover {
 
 footer .contact-box {
     background: var(--secondary-color);
-    padding: 30px 60px;
+    padding: 30px 190px;
     border-radius: 10px;
 }
 
@@ -233,8 +233,13 @@ footer .content-box p {
     width : 90%;
 }
 
+.ht {
+    text-align: left;
+    padding: 0 120px;
+}
+
 .box-email {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -245,9 +250,15 @@ footer .content-box p {
 
 .email-box {
     font-size: 20px;
-    display: flex;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    display: block;
+    margin-right: -1.5rem;
+    margin-left: 7.5rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 25px;
 }
 
 @media (max-width: 780px){
